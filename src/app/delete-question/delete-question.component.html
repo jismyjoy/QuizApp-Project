@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name of Quiz</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let q of quizzes">
+          <th scope="row">{{q.id}}</th>
+          <td class="title">{{q.text}}</td>
+          <td><button (click)="deleteQuiz(q.id)" class="btn btn-danger"> Delete </button></td>
+        </tr> 
+      </tbody>
+</table>

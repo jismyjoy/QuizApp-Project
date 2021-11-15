@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table  {color: blue;}
+</style>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-6">
+        <div class="quiz-box custom-box" *ngIf="show">  
+        <div class="question-text" style="text-align: justify;" *ngFor="let q of questions;let i = index">{{i +1}}. {{q.text}}
+               <div class="option-container">
+                <div style="text-align: justify;"   clickColor id="0" class="option" [style.animation-delay.s]="1" (click)="toggleClass(0,i)">{{q.choice1}}</div>
+                <div style="text-align: justify;"   clickColor id="1" class="option" [style.animation-delay.s]="2" (click)="toggleClass(1,i)">{{q.choice2}}</div>
+                <div style="text-align: justify;"   clickColor id="2" class="option" [style.animation-delay.s]="3" (click)="toggleClass(2,i)">{{q.choice3}}</div>
+                <div style="text-align: justify;"   clickColor id="3" class="option" [style.animation-delay.s]="4" (click)="toggleClass(3,i)">{{q.choice4}}</div>
+              </div>
+        </div>
+        <div align="center">
+                <button type="button" class="btn btn-success"  (click)="Show()">Submit</button>        
+        </div>
+        <div class="result-box custom-box" style="height: 100vh;" *ngIf="see">
+            <h1>Result</h1>
+            <table>
+                <tr>
+                    <td>Total questions: </td>
+                    <td>{{size}}</td>
+                </tr>
+                <td>Marks obtained: </td>
+                <td>{{correctAnswer}}</td>
+            </table>
+            </div>
+        </div>
+    </div>
+</div> 
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "priya warrier",
+      "email": "priya@test.com",
+      "password": "abcd",
+      "mobil": "",
+      "id": 1
+    },
+    {
+      "fullname": "ravi sanker",
+      "email": "ravi@test.com",
+      "password": "ravi",
+      "mobil": "",
+      "id": 2
+    },
+    {
+      "fullname": "rahul j",
+      "email": "rahul@test.com",
+      "password": "test",
+      "mobil": "",
+      "id": 3
+    },
+    {
+      "fullname": "rismy joy",
+      "email": "rismy@test.com",
+      "password": "joy",
+      "mobil": "",
+      "id": 4
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "mobil": "",
+      "id": 5
+    },
+    {
+      "fullname": "tester",
+      "email": "test@test.com",
+      "password": "test",
+      "mobil": "",
+      "id": 6
+    },
+    {
+      "fullname": "chdsvcddcd",
+      "email": "augustine@test.com",
+      "password": "testing",
+      "mobil": "",
+      "id": 7
+    },
+    {
+      "fullname": "jismy",
+      "email": "jismy@test.com",
+      "password": "test",
+      "mobil": "",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
