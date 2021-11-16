@@ -1,0 +1,7 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+http://localhost:8080/login/,30,68,17,75,245,641,6,641,0.000%,.25342,0.15,0.10
+http://localhost:8080/questions/,150,83,32,173,251,728,9,875,0.000%,1.26173,3.16,0.55
+http://localhost:4200/quiz/delete-question,30,301,314,354,375,378,186,378,0.000%,.25266,1233.46,1.49
+http://localhost:4200/sockjs-node/info?t=1637044412466,30,6,2,16,17,45,1,45,0.000%,.25331,0.10,0.10
+Test,30,792,691,1206,1220,1482,471,1482,0.000%,.25231,1235.13,2.23
+TOTAL,270,176,39,559,761,1206,1,1482,0.000%,2.27076,2470.26,4.46
