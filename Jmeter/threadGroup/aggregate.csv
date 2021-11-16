@@ -1,0 +1,4 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+fetch questions,100,329,224,764,1053,1936,15,2003,0.000%,2.09091,23.88,0.26
+add questions,100,446,324,728,1129,2023,72,2083,0.000%,2.07288,0.94,0.83
+TOTAL,200,388,259,764,1107,2003,15,2083,0.000%,4.14422,24.60,1.09

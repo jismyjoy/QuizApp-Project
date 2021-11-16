@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+fetch questions,100,329,15,2003,395.10,0.000%,2.09091,23.88,0.26,11695.8
+add questions,100,446,72,2083,428.67,0.000%,2.07288,0.94,0.83,462.0
+TOTAL,200,388,15,2083,416.34,0.000%,4.14422,24.60,1.09,6078.9
