@@ -24,14 +24,14 @@ import com.quiz.entities.SignupUsers;
 class QuizAppBackendApplicationTests {
 	
 	@Autowired
-	QuestionController questionController;
-	@MockBean
-	QuestionRepository questionRepository;
-	
-	@Autowired
 	SignupUsersController signupUsersController;
 	@MockBean
 	SignupUsersRepository signupUsersRepository;
+	
+	@Autowired
+	QuestionController questionController;
+	@MockBean
+	QuestionRepository questionRepository;
 		
 	@Test
 	void contextLoads() {
@@ -72,6 +72,7 @@ class QuizAppBackendApplicationTests {
 //		questionController.deletequiz(2);
 //		assertNull();
 //	}
+	
 
 	
 
